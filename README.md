@@ -60,6 +60,9 @@ Alternatively, move to the alx-pre_course repo, update the README.md, add, commi
 vi up_to_date
 content of the "up_to_date" file should be "git pull"
 git add, commit and push
+To push, use the command: git push --set-upstream origin branch_name. Eg.
+git push --set-upstream origin update_script 
+(We're using this push command because we used the <git checkout -b branch_name> instead of creating a new branch with the command: <git branch branch_name> and then switching to the new branch with the command <git checkout new_branch>) 
 
 Q5. To change to your main branch, use the command: git checkout main
 or: git checkout master
