@@ -82,5 +82,5 @@ git push
 
 Q6. vi .gitignore
 cat .gitignore 
-~ Emach file
+~ Emacs file
 Esc:wq
